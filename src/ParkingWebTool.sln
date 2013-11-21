@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingWebTool.Common", "ParkingWebTool.Common\ParkingWebTool.Common.csproj", "{5F7B713C-FB66-44D3-86FC-CF8B67EF14A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingWebTool.Data", "ParkingWebTool.Data\ParkingWebTool.Data.csproj", "{30940A9D-2B58-449D-89C0-1FB5F635527D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingWebTool.Data.MongoDB", "ParkingWebTool.Data.MongoDB\ParkingWebTool.Data.MongoDB.csproj", "{DC3BE8BC-E74C-44E0-81AE-BC76EB6F88EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingWebTool.Web.Api.Models", "ParkingWebTool.Web.Api.Models\ParkingWebTool.Web.Api.Models.csproj", "{4171EA99-D695-4AF2-95FB-7565BD686803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6E8EF3C6-721E-430B-A7EC-3FB5CCC79B89}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingWebTool.Web.Api", "ParkingWebTool.Web.Api\ParkingWebTool.Web.Api.csproj", "{7BC5D3C1-CF72-4D56-A520-89F88E1AF950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingWebTool.Web.Common", "ParkingWebTool.Web.Common\ParkingWebTool.Web.Common.csproj", "{EA54B81A-AAB7-4ACB-9D8D-422782B62D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingWebTool.Client", "ParkingWebTool.Client\ParkingWebTool.Client.csproj", "{2D555294-1C5B-48EF-90ED-0A09997CE3D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F7B713C-FB66-44D3-86FC-CF8B67EF14A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7B713C-FB66-44D3-86FC-CF8B67EF14A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7B713C-FB66-44D3-86FC-CF8B67EF14A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7B713C-FB66-44D3-86FC-CF8B67EF14A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30940A9D-2B58-449D-89C0-1FB5F635527D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30940A9D-2B58-449D-89C0-1FB5F635527D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30940A9D-2B58-449D-89C0-1FB5F635527D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30940A9D-2B58-449D-89C0-1FB5F635527D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3BE8BC-E74C-44E0-81AE-BC76EB6F88EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3BE8BC-E74C-44E0-81AE-BC76EB6F88EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3BE8BC-E74C-44E0-81AE-BC76EB6F88EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3BE8BC-E74C-44E0-81AE-BC76EB6F88EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4171EA99-D695-4AF2-95FB-7565BD686803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4171EA99-D695-4AF2-95FB-7565BD686803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4171EA99-D695-4AF2-95FB-7565BD686803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4171EA99-D695-4AF2-95FB-7565BD686803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC5D3C1-CF72-4D56-A520-89F88E1AF950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC5D3C1-CF72-4D56-A520-89F88E1AF950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC5D3C1-CF72-4D56-A520-89F88E1AF950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC5D3C1-CF72-4D56-A520-89F88E1AF950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA54B81A-AAB7-4ACB-9D8D-422782B62D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA54B81A-AAB7-4ACB-9D8D-422782B62D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA54B81A-AAB7-4ACB-9D8D-422782B62D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA54B81A-AAB7-4ACB-9D8D-422782B62D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D555294-1C5B-48EF-90ED-0A09997CE3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D555294-1C5B-48EF-90ED-0A09997CE3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D555294-1C5B-48EF-90ED-0A09997CE3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D555294-1C5B-48EF-90ED-0A09997CE3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = .nuget\..\..\packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
